@@ -100,7 +100,7 @@ const Login = () => {
                 <FcGoogle className="text-2xl" />
               </span>
               <span className="font-semibold sm:text-customText text-xs">
-                Login with Google
+                구글로 로그인하기
               </span>
             </Link>
             <Link
@@ -111,7 +111,7 @@ const Login = () => {
                 <FaGithub className="text-2xl" />
               </span>
               <span className="font-semibold sm:text-customText text-xs">
-                Login with Github
+                깃허브로 로그인하기
               </span>
             </Link>
           </div>
@@ -151,7 +151,7 @@ const Login = () => {
         </Buttons>
         <p className=" text-sm text-slate-700 ">
           <Link className=" underline hover:text-black" to="/forgot-password">
-            Forgot Password?
+            비번 까먹음?
           </Link>
         </p>
 
